@@ -12,7 +12,7 @@ The QA Recorder App is a Python desktop application designed to assist in QA tes
 ## How to Run
 1.  Navigate to the project directory:
     ```bash
-    cd C:\Users\akhil\.gemini\antigravity\scratch\qa_recorder
+    cd C:\Users\akhil\qa_recorder
     ```
 2.  Activate the virtual environment:
     ```bash
@@ -34,3 +34,4 @@ The QA Recorder App is a Python desktop application designed to assist in QA tes
 - **Recording Logic**: Verified that screenshots are captured and stored with timestamps and window titles.
 - **Change Detection**: Verified that identical screens are not re-captured (unless 10s passed and logic allows, currently strict on diff).
 - **Report Generation**: Verified that both DOCX and PDF reports are generated successfully with images and text.
+
